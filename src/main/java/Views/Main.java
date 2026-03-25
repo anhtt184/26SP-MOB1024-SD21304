@@ -1,5 +1,9 @@
 package Views;
 
+import Entities.Student;
+import Repositories.JDBC;
+
+import javax.tools.Diagnostic;
 import java.sql.SQLException;
 import java.util.*;
 

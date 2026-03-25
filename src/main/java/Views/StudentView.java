@@ -1,6 +1,7 @@
 package Views;
 
 import Entities.Student;
+import Repositories.JDBC;
 import Repositories.StudentRepo;
 
 import java.sql.SQLException;
@@ -13,7 +14,7 @@ public class StudentView {
         ArrayList<Student> stdList = StudentRepo.getAllData();
 
         // Sap xep theo Code
-        stdList.sort((s1, s2) -> s2.getCode().compareTo(s1.getCode()));
+        Collections.sort(stdList, (s1, s2) -> s2.getCode().compareTo(s1.getCode()));
 
         // Hien thi TAT CA DU LIEU len man hinh
         // SELECT * FROM STUDENT
