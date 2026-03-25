@@ -25,4 +25,3 @@ Ví dụ trong trường hợp này là "StudentView"
 ## Thông qua JDBC sẽ được hiểu là dạng mảng 2 chiều
 # Dữ liệu dùng để xử lý bằng Java là Object (Student)
 ## JDBC-demo > src > main > java > Entities > Student.java
-### Các thuộc tính Student được gán giá trị thông qua mảng 2 chiều này
